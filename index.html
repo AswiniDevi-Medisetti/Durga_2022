@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" lang="pb">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dusshera Amma Varu</title>
+  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+</head>
+<body>
+  <nav id="head-nav1">
+    <a href="index.html" class="active">Home</a>
+     <a href="Video.html">Video Gallery</a>
+     <a href="photo.html">Amma Gallery</a>
+  </nav>
+  <nav id="head-nav">
+    <h1>Dusshera Amma Varu</h1>
+  </nav>
+
+  <div class="main-content">
+    <p>Download Dialogues from Below Cards</p>
+
+    <!-- Cards Row 1 -->
+    <div class="cards-box">
+      <div class="card">
+        <div class="boxesInCard" id="box1"></div>
+         <p>Navratra 1</p>
+        <div class="btn-box">
+          <a href="Raamleela_Day1.pdf" target="_blank"><button>View Only</button></a>
+          <a href="Raamleela_Day1.pdf" target="_blank"><button>Download</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="boxesInCard" id="box2"></div>
+         <p>Navratra 2</p>
+        <div class="btn-box">
+          <button onclick="showBox_day2()">View Only</button>
+          <button onclick="showBox_day2()">Download</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="boxesInCard" id="box3"></div>
+        <p>Navratra 3</p>
+        <div class="btn-box">
+          <a href="Raamleela_Day3.pdf" target="_blank"><button>View Only</button></a>
+          <a href="Raamleela_Day3.pdf" target="_blank"><button>Download</button></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="boxesInCard" id="box4"></div>
+         <p>Navratra 4</p>
+        <div class="btn-box">
+          <a href="Raamleela_Day4.pdf" target="_blank"><button>View Only</button></a>
+          <a href="Raamleela_Day4.pdf" target="_blank"><button>Download</button></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cards Row 2 -->
+    <div class="cards-box">
+      <div class="card">
+        <div class="boxesInCard" id="box5"></div>
+         <p>Navratra 5</p>
+        <div class="btn-box">
+          <button onclick="ShowBox_day5()">View Only</button>
+          <button onclick="ShowBox_day5()">Download</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="boxesInCard" id="box6"></div>
+         <p>Navratra 6</p>
+        <div class="btn-box">
+          <button onclick="ShowBox_day6()">View Only</button>
+          <button onclick="ShowBox_day6()">Download</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="boxesInCard" id="box8"></div>
+         <p>Navratra 8</p>
+        <div class="btn-box">
+          <button onclick="ShowBox_day8()">View Only</button>
+          <button onclick="ShowBox_day8()">Download</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="boxesInCard" id="box9"></div>
+         <p>Navratra 9</p>
+        <div class="btn-box">
+          <a href="Raamleela_Day9.pdf" target="_blank"><button>View Only</button></a>
+          <a href="Raamleela_Day9.pdf" target="_blank"><button>Download</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Popup Boxes -->
+   <!-- navratra 2 -->
+  <div class="pop-up-box" id="day-2-role">
+    <table>
+      <tr>
+        <th>S.No.</th>
+        <th>Title</th>
+        <th>File</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Raamleela Pdf Commety</td>
+        <td><a href="Raamleela_Day2.pdf" target="_blank">Download</a></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Raamleela Pdf Handwritten</td>
+        <td><a href="Raamleela_Day2(1).pdf" target="_blank">Download</a></td>
+      </tr>
+    </table>
+    <button id="close-btn" onclick="closeBox_day2()">Close</button>
+  </div>
+
+  <!-- Navratra 5 -->
+   <div class="pop-up-box" id="day-5-role">
+    <table>
+      <tr>
+        <th>S.No.</th>
+        <th>Title</th>
+        <th>File</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Raamleela 5 pdf a</td>
+        <td><a href="Raamleela_Day5.pdf" target="_blank">Download</a></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Raamleela 5 pdf b</td>
+        <td><a href="Raamleela_Day5_b.pdf" target="_blank">Download</a></td>
+      </tr>
+
+       <td>3</td>
+        <td>Raamleela 5 pdf c</td>
+        <td><a href="Raamleela_Day5_c.pdf" target="_blank">Download</a></td>
+      </tr>
+    </table>
+    <button id="close-btn" onclick="closeBox_day5()">Close</button>
+  </div>
+<!--Navratra 6-->
+  <div class="pop-up-box" id="day-6-role">
+    <table>
+      <tr>
+        <th>S.No.</th>
+        <th>Title</th>
+        <th>File</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Raamleela 6 pdf a</td>
+        <td><a href="Raamleela_Day6.pdf" target="_blank">Download</a></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Raamleela 6 Pdf Handwritten</td>
+        <td><a href="Raamleela_Day6_b.pdf" target="_blank">Download</a></td>
+      </tr>
+       <td>3</td>
+        <td>Raamleela 6 Pdf Handwritten</td>
+        <td><a href="Raamleela_Day6_c.pdf" target="_blank">Download</a></td>
+      </tr>
+       <td>4</td>
+        <td> 6 Ravan - banasur sanvaad</td>
+        <td><a href="Raamleela_day6_d_Ravan_Banasur.pdf" target="_blank">Download</a></td>
+      </tr>
+    </table>
+    <button id="close-btn" onclick="closeBox_day6()">Close</button>
+  </div>
+<!--navratra 8-->
+  <div class="pop-up-box" id="day-8-role">
+    <table>
+        <title>Navratra 8</title>
+      <tr>
+        <th>S.No.</th>
+        <th>Title</th>
+        <th>File</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Raamleela 8 Pdf A</td>
+        <td><a href="Raamleela_Day8.pdf" target="_blank">Download</a></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Raamleela 8 Pdf B</td>
+        <td><a href="Raamleela_Day8_b.pdf" target="_blank">Download</a></td>
+      </tr>
+       <td>3</td>
+        <td>Raamleela 8 Ravan-Marich-seeta</td>
+        <td><a href="Raamleela_day8_Ravan-Marich-seeta.pdf" target="_blank">Download</a></td>
+      </tr>
+    </table>
+    <button id="close-btn" onclick="closeBox_day8()">Close</button>
+  </div>
+
+<footer>
+  <div class="foot-bar">
+    <h3>Follow US</h3>
+    <p>_______________</p>
+    <div class="icon-box">
+     <a href="" target="_blank" aria-label="facebook"><i class="fa-brands fa-facebook"></i></a>
+   <a href="" target="_blank" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+   <a href="https://www.linkedin.com/in/aswinideviM" target="_blank" aria-label="LinkedIn"> <i class="fa-brands fa-linkedin"></i></a>
+    
+   <a href="" target="_blank" aria-label="Instagrame"> <i class="fa-brands fa-instagram"></i></a>
+  
+
+     </div>
+     <div class="text-box">
+      <p> <i class="fa-regular fa-copyright" ></i>2025 Copyright Own By Devotee | All rights reserved</p>
+     </div>
+  </div>
+</footer>
+ 
+
+  <script src="script.js"></script>
+</body>
+</html>
